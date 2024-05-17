@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    height: 10.25rem;
+    width: 20.75rem;
+    margin: 1rem;
+    text-align: center;
+    border: 1px solid white;
+    font-family: monospace;
+    /* font-style: italic; */
+    font-size: 2.75rem;
+    
+}
+
+a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+
+
