@@ -14,7 +14,6 @@ body {
     border: 1px solid white;
     font-family: monospace;
     font-size: 1.75rem;
-    padding: 0.5rem;
 }
 
 a {
@@ -24,4 +23,10 @@ a {
     height: 100%;
     color: white;
     text-decoration: none;
+    border: 0.5rem solid transparent;
+}
+
+a:hover, .button:hover {
+    background-color: white;
+    color: black;
 }
