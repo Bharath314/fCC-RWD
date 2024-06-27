@@ -2,6 +2,8 @@ body {
   background-color: black;
   color: white;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  /* max-width: 100%; */
 }
 
 #navbar {
@@ -10,12 +12,7 @@ body {
   height: 100%;
   border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
-}
-
-.logo {
-  font-size: 3rem;
-  color: orange;
-  text-align: center;
+  background-color: rgb(24, 24, 24);
 }
 
 #main-doc {
@@ -24,6 +21,37 @@ body {
   padding: 1.25rem;
   margin-bottom: 110px;
 }
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: orange;
+  text-align: center;
+}
+
+#navbar ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar ul li {
+  margin: 0.5rem 0;
+}
+
+#navbar ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0.5rem 0.5rem;
+  display: block;
+  width: 100%;
+}
+
+#navbar ul li:hover{
+  background-color: orange;
+}
+
 
 @media only screen and (max-width: 815px) {
 
