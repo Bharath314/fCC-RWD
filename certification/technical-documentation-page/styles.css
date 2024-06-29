@@ -72,18 +72,21 @@ body {
     border-right: none;
     border-bottom: solid;
     border-color: rgba(0, 22, 22, 0.4);
-    /* align-items: center;
-    justify-content: center; */
   }
 
   #navbar ul {
     text-align: center;
     display: block;
-    /* height: 207px; */
-
   }
 
   #navbar ul li a{
     padding-left: 0;
   }
+}
+
+code {
+  display: block;
+  background-color: gray;
+  padding: 1rem;
+  font-size: 1rem;
 }
