@@ -5,30 +5,39 @@ body {
     margin: 0;
     align-items: center;
     justify-content: center;
-    @media (width < 44.625rem) {
-        flex-direction: column;
-    }
+    flex-direction: column;
+    color: white;
+    font-family: monospace;
+}
+
+.about {
+    text-align: center;
+    font-size: large;
+}
+
+.about p {
+    max-width: 720px;
+    padding: 10px;
 }
 
 .button {
-    height: 10.25rem;
-    width: 22.5rem;
     margin: 1rem;
     text-align: center;
     border: 1px solid white;
-    font-family: monospace;
-    font-size: 2.75rem;
+    font-size: 1.75rem;
 }
 
-a {
+.button a {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100%;
     color: white;
     text-decoration: none;
+    border: 0.5rem solid transparent;
 }
 
-a:hover {
+.button a:hover, .button:hover {
     background-color: white;
     color: black;
 }
