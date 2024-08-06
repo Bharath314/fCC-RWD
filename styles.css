@@ -10,6 +10,11 @@ body {
     font-family: monospace;
 }
 
+a {
+    color: white;
+    font-weight: bolder;
+}
+
 .about {
     text-align: center;
     font-size: large;
@@ -35,6 +40,7 @@ body {
     color: white;
     text-decoration: none;
     border: 0.5rem solid transparent;
+    font-weight: normal;
 }
 
 .button a:hover, .button:hover {
