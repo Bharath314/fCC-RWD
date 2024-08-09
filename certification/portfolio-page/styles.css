@@ -6,14 +6,15 @@ body{
 }
 
 header {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
-    padding: 8px;
-    border-color: rgba(0, 22, 22, 0.4);
-    background-color: rgba(24, 24, 24, 0.9);
+    padding: 8px 0 8px 0;
+    /* background-color: black; */
     display: flex;
     justify-content: flex-end;
     height: 42px;
+    
 }
 
 #navbar {
@@ -23,12 +24,14 @@ header {
 #navbar ul {
     display: flex;
     margin: auto;
+    margin-right: 20px;
     list-style: none;
     padding: 0px;
 }
 
 #navbar ul li {
-    margin: 10px
+    margin: 18px;
+    font-size: 1.2rem;
 }
 
 #navbar ul li a {
@@ -37,20 +40,139 @@ header {
 }
 
 #navbar ul li a:hover {
-    color: aqua;
+    color: transparent;
+    background: linear-gradient(90deg, #FF0000 0%, #990000 25%, #FF0000 75%, #990000 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 400% 100%;
+    animation: logo 1s linear infinite;
 }
 
 #welcome-section {
-    padding-top: 58px;
+    /* padding-top: 58px; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#welcome-section > h1 > span {
-    display: block;
-    /* text-align: center; */
-    font-size: 6rem;
+#welcome-section div {
+    max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+#welcome-section  h1 {
+    margin: 0;
+}
+
+#welcome-section  h1 > span {
+    display: inline-block;
+    font-size: 5rem;
     color: transparent;
-    background: linear-gradient(90deg, red ,blue );
+    background: linear-gradient(90deg, blue 0%, red 25%, blue 75%, red 100%);
     -webkit-background-clip: text;
     background-clip: text;
-    margin-bottom: 25px;
+    background-size: 400% 100%;
+    animation: logo 10s linear infinite;
+}
+
+@keyframes logo { 
+    0%{background-position:right}
+    100%{background-position:left}
+    /* 100%{background-position:100% 0%} */
+    /* 100%{background-position:100% 0%} */
+}
+
+#projects {
+    padding-top: 80px
+}
+
+#projects h1 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+
+.projects-list {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-style: italic
+}
+
+.projects-list h2 a {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.link-icon {
+    height: 0.8rem;
+}
+
+h2 .link-icon {
+    height: 1.2rem;
+}
+
+.link-text {
+    margin: 2px
+}
+
+.project-tile {
+    max-width: 768px;
+}
+
+.project-tile em {
+    /* font-style: normal; */
+    font-weight: lighter;
+}
+
+#contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#contact h1 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+#contact img {
+    height: 5rem;
+}
+
+.contact-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1368px) {
+    header {
+        background-color: black;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    #welcome-section  h1 > span {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 558px) {
+    #welcome-section  h1 > span {
+        font-size: 3rem;
+    }
+
+    #contact img {
+        height: 3rem;
+    }
 }

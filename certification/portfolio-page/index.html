@@ -12,20 +12,62 @@
             <ul>
                 <li><a class="nav-link" href="#welcome-section">About</a></li>
                 <li><a class="nav-link" href="#projects">Projects</a></li>
-                <li><a class="nav-link" href="#skills">Skills</a></li>
-                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <li><a class="nav-link" href="#contact">Find Me</a></li>
             </ul>
         </nav>
     </header>
     <body>
         <section id="welcome-section">
-            <h1>Hi, I am <span>Bharath Valaboju</span></h1>
+            <div>
+                <h1 class="greeting">Hi👋, I am</h1>
+                <h1><span>Bharath Valaboju</span></h1>
+                <h3>Web Developer and Data Science Enthusiast</h3>
+                <p>I'm an Undergrad student pursuing a BS in Data Science and Applications from IIT Madras. I am an aspiring software developer and I really love data science.</p>
+            </div>
         </section>
         <section id="projects">
             <h1>Projects</h1>
-            <div class="project">
-                <h2 class="project-title"></h2>
-                <a href="https://bharath314.github.io/fCC-RWD/">fcc-RWD</a>
+            <div class="projects-list">
+                <div class="project-tile">
+                    <h2 class="project">Carousel</h2>
+                    <p> A simple static instagram clone that allows for multiple users who can
+                        make posts that allow for images. The users can also edit and delete their
+                        posts and follow each other. Made for the course BSCS2003P</p>
+                    <p><strong>Tech Stack</strong> Flask <em>Backend</em>, sqlite <em>Database</em></p>
+                    <p class="link-text"><a href="https://github.com/Bharath314/Carousel">Repository <img class="link-icon" src="../../static/external-link.png" alt=""></a></p>
+                </div>
+                <div class="project-tile">
+                    <h2 class="project"> MovieZoo </h2>
+                    <p>  A RESTful movie ticketing and venue management system that allows for
+                        users to book tickets and managers to manage shows and venues. Notable
+                        features include token-based RBAC, caching and async jobs. Made for the
+                        course BSCS2006P</p>
+                    <p> <strong>Tech Stack</strong> Flask <em>Backend</em>, sqlite <em>Database</em>, redis <em>Cache</em>, celery <em>Async Jobs</em>,
+                        Vue.js <em>Frontend</em>, vite <em>Development Server</em></p>
+                    <p class="link-text"><a href="https://github.com/Bharath314/MovieZoo">Repository <img class="link-icon" src="../../static/external-link.png" alt=""></a></p>
+                </div>
+                <div class="project-tile">
+                    <h2 class="project"><a href="https://bharath314.github.io/fCC-RWD/">fCC-RWD <img class="link-icon" src="../../static/external-link.png" alt=""></a></h2>
+                    <p>A bunch of html+css pages that I made to practice my vanilla css. I followed freeCodeCamp's Responsive Web Design course to make these projects.</p>
+                    <p class="link-text"><a href="https://github.com/Bharath314/fCC-RWD">Repository <img class="link-icon" src="../../static/external-link.png" alt=""></a></p>
+                </div>
+                <div class="project-tile">
+                    <h2 class="project"><a href="https://bsc-iitm.github.io/python-textbook/">Python Textbook <img class="link-icon" src="../../static/external-link.png" alt=""></a></h2>
+                    <p>Ported an existing textbook to the
+                        framework Material for mkdocs,
+                        proofread and expanded upon some of its
+                        chapters.</p>
+                    <p class="link-text"><a href="https://github.com/bsc-iitm/python-textbook">Repository <img class="link-icon" src="../../static/external-link.png" alt=""></a></p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Find Me</h1>
+            <div class="contact-list">
+                <div class="contact-option"><a id="profile-link" target="_blank" href="mailto:bharath.valaboju@outlook.com"><img src="../../static/email (1).png" alt="email"></a></div>
+                <div class="contact-option"><a id="profile-link" target="_blank" href="https://www.linkedin.com/in/bharath-valaboju-0bb24521a/"><img src="../../static/linkedin.png" alt="email"></a></div>
+                <div class="contact-option"><a id="profile-link" target="_blank" href="https://github.com/Bharath314"><img src="../../static/github.png" alt="email"></a></div>
+                <div class="contact-option"><a id="profile-link" target="_blank" href="https://www.hackerrank.com/profile/valabojubharath"><img src="../../static/hackerrank_logo_icon_248120.png" alt="email"></a></div>
             </div>
         </section>
     </body>
