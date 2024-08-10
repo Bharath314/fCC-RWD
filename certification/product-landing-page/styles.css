@@ -84,7 +84,7 @@ section {
 
 #features {
     padding: 16px;
-    padding-top: 32px;
+    padding-top: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -114,6 +114,7 @@ section {
     text-align: center;
     margin: auto;
     padding: 25px;
+    padding-top: 80px;
 }
 
 #form {
@@ -160,6 +161,7 @@ section {
 
 #examples {
     text-align: center;
+    padding-top: 80px;
 }
 
 #examples p {
@@ -175,6 +177,7 @@ section {
 #pricing>div{
     width: 75vw;
     margin: auto;
+    padding-top: 80px;
 }
 
 #pricing h1 {
@@ -230,6 +233,19 @@ footer {
     .landing-content h1 {
         font-size: 5rem;
     }
+
+    #features {
+        padding-top: 200px;
+    }
+
+    #updates, #pricing {
+        padding-top: 100px;
+    }
+
+    #examples {
+        padding-top: 180px;
+    }
+
 }
 
 @media only screen and (max-width: 830px) {
