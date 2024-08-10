@@ -1,5 +1,5 @@
 # About
-These are a bunch of html+css pages that I made to practice my vanilla css. I made this collection of projects following freeCodeCamp's [Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design/) course. The Guided projects section contains projects that are provided in the curriculum to introduce various html+css concepts to learners. On the other hand, the certification projects sections contain projects that I've made to pass freeCodeCamp's rigorous user stories to get through their course.
+These are a bunch of html+css pages that I made to practice my vanilla css. I made this collection of projects following freeCodeCamp's [Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design/) course. The Guided projects section contains projects that are provided in the curriculum to introduce various html+css concepts to learners. On the other hand, the certification projects sections contain projects that I've made to pass freeCodeCamp's rigorous user stories to get through their course. View my certificate [here](https://www.freecodecamp.org/certification/ConstantLynx/responsive-web-design).
 
 <div align="center">
 
